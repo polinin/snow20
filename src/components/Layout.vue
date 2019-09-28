@@ -58,7 +58,7 @@
     }
 
     footer {
-        background-image: url("./../assets/map.png");
+        background-image: url("./../assets/map.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
