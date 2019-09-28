@@ -1,6 +1,7 @@
 <template>
     <div class="wrap">
         <div class="top">
+            <div class="bg-image"></div>
             <header>
                 <div class="header__sub">snowboard</div>
                 <div class="header__title">ITALY 2020</div>
@@ -31,14 +32,24 @@
         flex-direction: column;
         align-content: center;
         overflow-y: auto;
+    }
+
+    .bg-image {
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 100%;
         background-image: url("./../assets/ms.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        filter: blur(3px);
     }
 
     .top {
         flex: 1;
+        position: relative;
     }
 
     .content {
