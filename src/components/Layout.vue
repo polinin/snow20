@@ -64,6 +64,8 @@
         background-position: center;
         min-height: 200px;
         height: 200px;
+        filter: saturate(0.5);
+        border-top: 5px solid #606060;
     }
 
     .header__sub {
