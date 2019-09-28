@@ -54,10 +54,12 @@
         text-transform: uppercase;
         font-size: 32px;
         background-color: rgba(0, 0, 0, 0.5);
-        color: #DEE8DD;
+        color: #fff;
         text-align: right;
         font-weight: bold;
         line-height: 1;
+        align-items: center;
+        justify-content: flex-end;
     }
 
     .is-item__data {
