@@ -1,4 +1,10 @@
 # italy
+To publish Github Pages:
+
+Comment /dist in .gitignore file;
+IMPORTANT!! Before you run the next command make sure you don’t commit the .gitignore and vue.config.js.
+Run the command: git add dist && git commit -m "Initial dist subtree commit"
+Run the command: git subtree push --prefix dist origin gh-pages
 
 ## Project setup
 ```

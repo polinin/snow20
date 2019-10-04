@@ -40,7 +40,7 @@
         top: 0;
         height: 100%;
         width: 100%;
-        background-image: url("./../assets/ms.jpeg");
+        background-image: url("./../assets/ms.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -58,7 +58,7 @@
     }
 
     header {
-        background-image: url("./../assets/ms1.jpeg");
+        background-image: url("./../assets/ms1.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -69,12 +69,14 @@
     }
 
     footer {
-        background-image: url("./../assets/map.png");
+        background-image: url("./../assets/map.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         min-height: 200px;
         height: 200px;
+        filter: saturate(0.5);
+        border-top: 5px solid #606060;
     }
 
     .header__sub {
