@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="isSafari">
+    <div id="app">
         <Layout>
             <Itinerary/>
         </Layout>
@@ -10,21 +10,14 @@
 
     import Itinerary from './components/Itinerary.vue';
     import Layout from "@/components/Layout";
-    import browser from './utils/browser';
 
     export default {
         name: 'app',
-        data() {
-            return {
-                isSafari: browser.isSafari()
-            }
-        },
         components: {
             Layout,
             Itinerary
         }
     }
-
 </script>
 
 <style>

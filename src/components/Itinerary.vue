@@ -1,6 +1,6 @@
 <template>
-    <div class="hello">
-        <div>
+    <div>
+        <div class="items-list">
             <div v-for="item in data" v-bind:key="item.date" class="is-flex is-item">
                 <div class="is-item__date">{{item.date}}</div>
                 <div class="is-item__data">
@@ -42,7 +42,10 @@
         background-size: cover;
         background-position: center;
         font-size: 18px;
-        margin: 1px 0;
+    }
+
+    .is-item + .is-item {
+        margin-top: 3px;
     }
 
     .is-item .is-item__data {
@@ -59,7 +62,6 @@
         font-weight: bold;
         line-height: 1;
         display: flex;
-        align-items: center;
         justify-content: flex-end;
     }
 
@@ -72,5 +74,21 @@
         text-transform: uppercase;
         font-weight: 700;
         font-family: sans-serif;
+    }
+
+    @media all and (max-width: 567px) {
+        .is-item {
+            display: block;
+        }
+
+        .is-item__date {
+            padding: 24px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .is-item__data {
+            text-align: center;
+        }
     }
 </style>

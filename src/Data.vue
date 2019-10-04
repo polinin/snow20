@@ -10,7 +10,7 @@
     }, {
         "date": "Feb 1",
         "title": "Munich - Val Gardena",
-        "description": "<div><div>Drive <span> ~ 4h</span></div>~ $55/person 7 days car rental + fuel</div></div>"
+        "description": "<div><div>Drive <span> ~ 4h</span></div>~ $100/person 7 days car rental + fuel</div></div>"
     }, {
         "date": "Feb 1 - Feb 8",
         "title": "Val Gardena",
