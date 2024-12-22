@@ -1,9 +1,9 @@
 const isSafari = () => {
-    const ua = navigator.userAgent.toLowerCase();
+  const ua = navigator.userAgent.toLowerCase();
 
-    return ua.includes('safari') && !ua.includes('chrome');
+  return ua.includes('safari') && !ua.includes('chrome');
 };
 
 export default {
-    isSafari
-}
+  isSafari,
+};

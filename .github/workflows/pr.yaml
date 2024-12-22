@@ -10,6 +10,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
+    name: "Build & Lint"
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -22,9 +23,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 'latest'
+          node-version: '22'
       - run: yarn
       - run: yarn build
-  lint:
-    steps:
       - run: yarn lint
