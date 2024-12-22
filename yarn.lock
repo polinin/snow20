@@ -40,7 +40,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.26.3.tgz#99488264a56b2aded63983abd6a417f03b92ed02"
   integrity sha512-nHIxvKPniQXpmQLb0vhY3VaFb3S0YrTAwpOWJZh1wn3oJPjJk9Asva204PsBdmAE8vpzfHudT8DB0scYvy9q0g==
 
-"@babel/core@^7.12.16":
+"@babel/core@^7.12.16", "@babel/core@^7.26.0":
   version "7.26.0"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.26.0.tgz#d78b6023cc8f3114ccf049eb219613f74a747b40"
   integrity sha512-i1SLeK+DzNnQ3LL/CswPCa/E5u4lh1k6IAEphON8F+cXt0t9euTshDru0q7/IqMa1PMPz5RnHuHscF8/ZJsStg==
@@ -1561,15 +1561,6 @@
     read-pkg "^5.1.1"
     semver "^7.3.4"
     strip-ansi "^6.0.0"
-
-"@vue/compat@^3.5.13":
-  version "3.5.13"
-  resolved "https://registry.yarnpkg.com/@vue/compat/-/compat-3.5.13.tgz#b8f715dc4ff0b4964165d51e0023bd2631de5ae5"
-  integrity sha512-Q3xRdTPN4l+kddxU98REyUBgvc0meAo9CefCWE2lW8Fg3dyPn3vSCce52b338ihrJAx1RQQhO5wMWhJ/PAKUpA==
-  dependencies:
-    "@babel/parser" "^7.25.3"
-    estree-walker "^2.0.2"
-    source-map-js "^1.2.0"
 
 "@vue/compiler-core@3.5.13":
   version "3.5.13"
